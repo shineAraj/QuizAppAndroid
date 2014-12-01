@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/resultview"
+        android:layout_weight="0.16" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:id="@+id/listView"
+        android:layout_weight="0.77" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="RESTART QUIZ"
+        android:id="@+id/restart" />
+
+</LinearLayout>

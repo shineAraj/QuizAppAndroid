@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CATEGORIES"
+        android:id="@+id/category"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="229dp"
+        android:layout_height="0dp"
+        android:text="JAVA"
+        android:id="@+id/javabutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24" />
+
+    <Button
+        android:layout_width="228dp"
+        android:layout_height="0dp"
+        android:text="BASIC C"
+        android:id="@+id/cbutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24" />
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="0dp"
+        android:text="C++"
+        android:id="@+id/cplusbutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24" />
+</LinearLayout>
