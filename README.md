@@ -1,5 +1,8 @@
 QuizAppAndroid
 ==============
+Log in credentials
+username: admin
+password: admin
 
 A Quizzing application using which a User can attempt an objective Quiz from a list of Quizzes. 
 Each quiz has 5 questions, each with same or different weightage. 
